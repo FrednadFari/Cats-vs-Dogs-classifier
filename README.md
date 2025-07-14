@@ -6,11 +6,11 @@ A deep learning project using PyTorch & TensorFlow to classify cat vs. dog image
 Criteria	                TensorFlow	                               PyTorch
 * Ease of Setup (Colab)	    ✅ Built-in data pipeline                 Requires more manual setup
                            (image_dataset_from_directory)	
-Model Summary / Layers	  ✅ Clear with .summary()	                 More verbose with print(model)
-Training Loop	            ✅ High-level (model.fit())	               Manual training loop
-Built-in Augmentation	    ✅ Easy with Sequential() layers	         Requires torchvision.transforms
-Saving/Loading	          ✅ One-liner model.save()	                 Requires tracking both model and state_dict
-Binary Classification	    ✅ Easier with                            Needs careful loss/function selection
+* Model Summary / Layers	  ✅ Clear with .summary()	                 More verbose with print(model)
+* Training Loop	            ✅ High-level (model.fit())	               Manual training loop
+* Built-in Augmentation	    ✅ Easy with Sequential() layers	         Requires torchvision.transforms
+* Saving/Loading	          ✅ One-liner model.save()	                 Requires tracking both model and state_dict
+* Binary Classification	    ✅ Easier with                            Needs careful loss/function selection
                            sparse_categorical_crossentropy + Softmax	
 
 
