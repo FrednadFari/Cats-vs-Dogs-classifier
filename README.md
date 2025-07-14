@@ -4,7 +4,7 @@ A deep learning project using PyTorch & TensorFlow to classify cat vs. dog image
 🔍 Here’s a comparison based on your context (Cats vs. Dogs CNN):
 
 Criteria	                TensorFlow	                               PyTorch
-Ease of Setup (Colab)	    ✅ Built-in data pipeline                 Requires more manual setup
+* Ease of Setup (Colab)	    ✅ Built-in data pipeline                 Requires more manual setup
                            (image_dataset_from_directory)	
 Model Summary / Layers	  ✅ Clear with .summary()	                 More verbose with print(model)
 Training Loop	            ✅ High-level (model.fit())	               Manual training loop
