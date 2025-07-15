@@ -145,8 +145,3 @@ files.download("results/plot_name.png")
 
 - Manually recorded logs per epoch.
 - Created lists for accuracy/loss values and plotted them post-training.
-
----
-
-This summary will be included in the GitHub repo under `issues_and_solutions.md` to demonstrate problem-solving and model refinement strategies during development.
-
