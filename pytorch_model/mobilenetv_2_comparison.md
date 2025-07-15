@@ -57,32 +57,6 @@ All shown predictions were correct. The model performed well even on darker or c
 
 ---
 
-## 🚀 How to Run
-1. Clone the repo and open `notebook.ipynb`
-2. Upload dataset to: `data/train/train`
-3. Run preprocessing to organize images into `cat/` and `dog/` folders
-4. Train the model with MobileNetV2
-5. Run prediction samples and evaluation
-
----
-
-## 📊 GitHub Notes
-- ✅ All training logs and figures are saved
-- ✅ `show_predictions()` for qualitative analysis
-- ✅ Compared MobileNetV2 between PyTorch and TensorFlow
-- ✅ Reduced learning rate dynamically using `ReduceLROnPlateau`
-
-> If you plan to train longer, consider using `StepLR` instead.
-
----
-
-## 🔄 Next Steps
-- Try **ResNet50** or **EfficientNet** in PyTorch
-- Explore **early stopping** + **confidence calibration**
-- Deploy model via **TorchServe** or **Flask API**
-
----
-
 ## 📅 Author
 Project built and compared across both frameworks for learning, experimentation, and resume portfolio.
 
